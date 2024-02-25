@@ -15,8 +15,8 @@
             <li><a href="display.php">Users</a></li>
         </ul>
         <div class="admin">
-            <a href="index.php"> <img src="resources/admin.jpg" alt="Admin"></a>
-            <a href="index.php">Admin</a>
+            <a href="index.html"> <img src="resources/admin.jpg" alt="Admin"></a>
+            <a href="index.html">Admin</a>
         </div>
     </nav>
     <h2>Add User</h2>
