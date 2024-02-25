@@ -57,13 +57,9 @@ $user_info = [
         'Ext.' => $ext,
         'Profile Picture' => $profile_picture['name']
     ];
- $file = fopen('userInfo.txt', 'a');
-   fwrite($file, print_r($user_info, true));
-  fclose($file);
-    //  move_uploaded_file($profile_picture['tmp_name'], "img/".$name);
+    file_put_contents('userInfo.txt', print_r($user_info, true), FILE_APPEND);
+    // uplouding and save pic
      move_uploaded_file($file_tem_path, "img/".time().$file_name);
-
-    // file_put_contents('userInfo.txt', print_r($user_info, true));
 
     // Redirect to display user info
     header('Location: display.php');
