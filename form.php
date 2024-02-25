@@ -10,8 +10,8 @@
 <body>
     <nav>
         <ul>
-            <li><a href="not_found.php">Home</a></li>
-            <li><a href="not_found.php">Products</a></li>
+            <li><a href="not_found.html">Home</a></li>
+            <li><a href="not_found.html">Products</a></li>
             <li><a href="display.php">Users</a></li>
         </ul>
         <div class="admin">
